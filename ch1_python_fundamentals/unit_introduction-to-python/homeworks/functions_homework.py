@@ -6,6 +6,7 @@ def isPalindrome(s):
 
 print(isPalindrome("nurses run"))
 print(isPalindrome("Sara"))
+
 #a Python function that takes a number as a parameter and checks if the number is prime or not. A prime number (or a prime) is a natural number greater than 1 and that has no positive divisors other than 1 and itself.
 def isPrime(number):
     
@@ -20,20 +21,21 @@ def isPrime(number):
         return False
 
 
-print(isPrime(50))
+print(isPrime(2)) #returns true
 print(isPrime(13))
+print(isPrime(50))
+
 #a Python function to check whether a number is in a given range.
-def isInRange(number,range):
-    for i in range:
-        if number==i:
-            return True
-            break
+def isInRange(startNum,endNum,number):
+    if number in range(startNum,endNum):
+        return True    
     else:
         return False
 
+startNum=2
+endNum=9
+print(isInRange(startNum,endNum,5))
 
-range=[1,3,4,6,10]
-print(isInRange(16,range))
 #a Python function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument.
 def factorial(number):
     if(number<0):

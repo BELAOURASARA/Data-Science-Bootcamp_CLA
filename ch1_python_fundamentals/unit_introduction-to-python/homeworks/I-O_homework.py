@@ -50,7 +50,8 @@ for line in (file.readlines()):
         break
 if isInFile==False:
     print("the name :"+x+" doesn't exist in this file")
-
+"""or simply  use if x in file.read()
+"""
 
 
 

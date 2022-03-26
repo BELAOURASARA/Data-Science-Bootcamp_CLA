@@ -16,13 +16,11 @@ class Vehicle:
 
 #Create a Vehicle class without any variables and methods.
 class Vehicle2:
-    def __init__(self) -> None:
-        pass
+    pass
 
 #Create a child class Bus that will inherit all of the variables and methods of the Vehicle class
 class Bus(Vehicle):
-    def __init__(self,max_speed,mileage):
-        super().__init__(max_speed,mileage)
+    pass
 
 b=Bus(max_speed=500,mileage=100)
 print("Bus max speed :", b.max_speed)
